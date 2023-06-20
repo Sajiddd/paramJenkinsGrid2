@@ -18,7 +18,6 @@ public class Demo1 {
 	public void testA(String gridURL,String appURL) throws InterruptedException, MalformedURLException
 	{
 		Reporter.log("test testA method of demo2 class",true);
-
 		//in real time url is the ip address of the remote system 
 		URL url=new URL(gridURL);
 		//browser 

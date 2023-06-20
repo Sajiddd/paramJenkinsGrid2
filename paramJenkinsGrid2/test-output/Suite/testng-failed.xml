@@ -2,8 +2,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
-    <parameter name="gridURL" value="http://localhost:4444"/>
-    <parameter name="appURL" value="http://demo.actitime.com"/>
     <classes>
       <class name="day21.Demo1">
         <methods>
